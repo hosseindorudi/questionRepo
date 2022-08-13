@@ -1,0 +1,13 @@
+.bacgroundSpinner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.spinner {
+    z-index: 2;
+}

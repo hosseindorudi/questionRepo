@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'IRANSansFa';
+  src: local('IRANSansFa'), url(../public/IRANSansFaNum.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'IRANSansEn';
+  src: local("IRANSansEn"),url(../public/IRANSans.ttf)
+}
+
+.fontFa{
+  font-family: 'IRANSansFa',serif !important;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.questionpageMainDiv {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.questionpageFirstDiv {
+  flex: 95%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.questionPageInformaitionDiv {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+
+.questionPagePhoneNumberDiv {
+  flex: 5;
+}
+
+.questionPageLogoDiv {
+  width: fit-content;
+  padding: 10px;
+}
+
+.questionPageLogo {
+  width: 80px;
+  height: 80px;
+}
+
+.questionPageSpanDiv {
+  display: flex;
+  align-items: center;
+}
+
+.questionPageSpanDiv > span {
+  margin: 0 5px;
+}
+
+
+
+.questionpageQuestionDiv {
+  flex: 9;
+}
+
+
+
+
+
+
+.questionpageSecondDiv {
+  flex: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questionPageSubmit {
+  border: 1px solid lightblue;
+  background-color: #fff;
+  color: lightblue;
+  width: 50%;
+  max-width: 150px;
+  border-radius: 5px;
+  transition: all 500ms ease;
+  height: 85%;
+  margin-bottom: 10px;
+}
+.questionPageSubmit:hover {
+  background-color: lightblue;
+  color: #fff;
+
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
